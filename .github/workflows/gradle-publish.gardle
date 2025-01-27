@@ -78,7 +78,7 @@ repositories {
 
 dependencies {
     // Additional JAR libraries.
-    implementation fileTree(dir: 'lib', include: ['*.jar'])
+    implementation fileTree(dir: ././lib', include: ['*.jar'])
 
     implementation group: 'it.unimi.dsi', name: 'fastutil', version: '8.5.8'
 
